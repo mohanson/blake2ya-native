@@ -20,7 +20,7 @@ fuzz_target!(|data: Vec<Vec<u8>>| {
         for elem in &data {
             h.update(elem);
         }
-        let mut r = [0u8; 32];
+        let mut r = [0; 32];
         h.finalize(&mut r);
         r
     };
