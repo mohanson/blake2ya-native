@@ -1,0 +1,15 @@
+[package]
+name = "blake2ya-native"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake2ya = { path = "/home/ubuntu/src/blake2ya" }
+blake2b-rs = "0.2"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "main"
+harness = false

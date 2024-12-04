@@ -1,0 +1,23 @@
+[package]
+name = "blake2ya-native-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+blake2ya = { path = "/home/ubuntu/src/blake2ya" }
+blake2b-rs = "0.2"
+
+[dependencies.blake2ya-native]
+path = ".."
+
+[[bin]]
+name = "main"
+path = "fuzz_targets/main.rs"
+test = false
+doc = false
+bench = false
