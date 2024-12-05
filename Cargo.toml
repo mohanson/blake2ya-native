@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-blake2ya = { path = "/home/ubuntu/src/blake2ya" }
+blake2ya = { git = "https://github.com/mohanson/blake2ya" }
 blake2b-rs = "0.2"
 
 [dev-dependencies]
