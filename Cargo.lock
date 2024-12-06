@@ -41,8 +41,8 @@ dependencies = [
 
 [[package]]
 name = "blake2ya"
-version = "0.9.3"
-source = "git+https://github.com/mohanson/blake2ya#25c4fd2cbbcd20335719f8d4769e58c601975a75"
+version = "0.9.5"
+source = "git+https://github.com/mohanson/blake2ya#f751fb48a0d97f83e3fcdaae82d0777126f06ad2"
 
 [[package]]
 name = "blake2ya-native"
