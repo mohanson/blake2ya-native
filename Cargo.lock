@@ -41,8 +41,9 @@ dependencies = [
 
 [[package]]
 name = "blake2ya"
-version = "0.9.5"
-source = "git+https://github.com/mohanson/blake2ya#f751fb48a0d97f83e3fcdaae82d0777126f06ad2"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c32a62e8398837d4ee57d57c14abc9e523769dce76a11c8c3626c351162c7d4"
 
 [[package]]
 name = "blake2ya-native"
